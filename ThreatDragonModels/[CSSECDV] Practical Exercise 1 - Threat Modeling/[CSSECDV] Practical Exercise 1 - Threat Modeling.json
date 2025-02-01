@@ -404,6 +404,118 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "34af8ee8-9650-4ed7-aa86-188864dd35f3",
+            "source": {
+              "cell": "c595a0a7-a88f-4d14-bb94-734b276a06fa",
+              "port": "c4d180b8-8197-4f6f-9d1b-de57bb46e19e"
+            },
+            "target": {
+              "cell": "8548afbb-6dcc-4d5e-ac1a-f5741d8a7e55",
+              "port": "68630099-b813-40cd-a0d7-a3f7e04ba4e4"
+            },
+            "vertices": [
+              {
+                "x": 780,
+                "y": 470
+              },
+              {
+                "x": 830,
+                "y": 480
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "3d5543c4-5332-4398-8d6a-30455e4442fd",
+            "source": {
+              "cell": "c595a0a7-a88f-4d14-bb94-734b276a06fa",
+              "port": "a7fd2ef3-8516-4e3f-bf5e-63e20799b6e7"
+            },
+            "target": {
+              "cell": "02a1b1e5-a32b-4e21-aad0-48e7dfae7915",
+              "port": "6942ab62-10b5-4184-9499-5b9890b68b7a"
+            },
+            "vertices": [
+              {
+                "x": 760,
+                "y": 360
+              },
+              {
+                "x": 790,
+                "y": 400
+              },
+              {
+                "x": 820,
+                "y": 400
+              }
+            ]
+          },
+          {
             "position": {
               "x": 320.625,
               "y": 510
@@ -633,14 +745,239 @@
               "providesAuthentication": false,
               "threats": []
             },
-            "zIndex": 12,
-            "tools": {
+            "zIndex": 12
+          },
+          {
+            "position": {
+              "x": 890,
+              "y": 510
+            },
+            "size": {
+              "width": 270,
+              "height": 144
+            },
+            "attrs": {
+              "text": {
+                "text": "Improper Restriction of\nOperations within the\nBounds of a Memory Buffer"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
               "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
-            }
+                {
+                  "group": "top",
+                  "id": "68630099-b813-40cd-a0d7-a3f7e04ba4e4"
+                },
+                {
+                  "group": "right",
+                  "id": "a7fd2ef3-8516-4e3f-bf5e-63e20799b6e7"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c4d180b8-8197-4f6f-9d1b-de57bb46e19e"
+                },
+                {
+                  "group": "left",
+                  "id": "6942ab62-10b5-4184-9499-5b9890b68b7a"
+                }
+              ]
+            },
+            "id": "8548afbb-6dcc-4d5e-ac1a-f5741d8a7e55",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Improper Restriction of\nOperations within the\nBounds of a Memory Buffer",
+              "description": "The software performs operations on a memory buffer, but it can read from or\nwrite to a memory location that is outside of the intended boundary of the\nbuffer.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            },
+            "zIndex": 13
+          },
+          {
+            "position": {
+              "x": 890,
+              "y": 330
+            },
+            "size": {
+              "width": 270,
+              "height": 144
+            },
+            "attrs": {
+              "text": {
+                "text": "Improper Restriction of\nOperations within the\nBounds of a Memory Buffer"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "68630099-b813-40cd-a0d7-a3f7e04ba4e4"
+                },
+                {
+                  "group": "right",
+                  "id": "a7fd2ef3-8516-4e3f-bf5e-63e20799b6e7"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c4d180b8-8197-4f6f-9d1b-de57bb46e19e"
+                },
+                {
+                  "group": "left",
+                  "id": "6942ab62-10b5-4184-9499-5b9890b68b7a"
+                }
+              ]
+            },
+            "id": "02a1b1e5-a32b-4e21-aad0-48e7dfae7915",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Improper Restriction of\nOperations within the\nBounds of a Memory Buffer",
+              "description": "The software performs operations on a memory buffer, but it can read from or\nwrite to a memory location that is outside of the intended boundary of the\nbuffer.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            },
+            "zIndex": 14
           }
         ],
         "description": ""
