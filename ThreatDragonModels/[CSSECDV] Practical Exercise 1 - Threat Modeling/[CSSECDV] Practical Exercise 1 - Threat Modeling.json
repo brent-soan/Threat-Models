@@ -16,7 +16,633 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.3.0",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 240,
+              "y": 150.0000000000009
+            },
+            "size": {
+              "width": 431.25,
+              "height": 230
+            },
+            "attrs": {
+              "text": {
+                "text": "Tampering of the voting application by introducing malicious code"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "68630099-b813-40cd-a0d7-a3f7e04ba4e4"
+                },
+                {
+                  "group": "right",
+                  "id": "a7fd2ef3-8516-4e3f-bf5e-63e20799b6e7"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c4d180b8-8197-4f6f-9d1b-de57bb46e19e"
+                },
+                {
+                  "group": "left",
+                  "id": "6942ab62-10b5-4184-9499-5b9890b68b7a"
+                }
+              ]
+            },
+            "id": "c595a0a7-a88f-4d14-bb94-734b276a06fa",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Tampering of the voting application by introducing malicious code",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 40,
+              "y": 510
+            },
+            "size": {
+              "width": 270,
+              "height": 144
+            },
+            "attrs": {
+              "text": {
+                "text": "Improper Input Validation"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "68630099-b813-40cd-a0d7-a3f7e04ba4e4"
+                },
+                {
+                  "group": "right",
+                  "id": "a7fd2ef3-8516-4e3f-bf5e-63e20799b6e7"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c4d180b8-8197-4f6f-9d1b-de57bb46e19e"
+                },
+                {
+                  "group": "left",
+                  "id": "6942ab62-10b5-4184-9499-5b9890b68b7a"
+                }
+              ]
+            },
+            "id": "6cc0ab4d-c92b-416e-9f6b-9d2676d5666f",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Improper Input Validation",
+              "description": "The product receives input or data, but it does not validate or incorrectly\nvalidates that the input has the properties that are required to process the\ndata safely and correctly.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "25d98bf6-3fa0-4996-b8c6-4647d4b05998",
+            "source": {
+              "x": 310,
+              "y": 380
+            },
+            "target": {
+              "cell": "6cc0ab4d-c92b-416e-9f6b-9d2676d5666f",
+              "port": "68630099-b813-40cd-a0d7-a3f7e04ba4e4"
+            },
+            "vertices": [
+              {
+                "x": 240,
+                "y": 450
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "fa67427c-a41b-455d-ba8c-3990d7d6f0b8",
+            "source": {
+              "cell": "c595a0a7-a88f-4d14-bb94-734b276a06fa",
+              "port": "c4d180b8-8197-4f6f-9d1b-de57bb46e19e"
+            },
+            "target": {
+              "cell": "a638a724-757a-4e10-8177-c64116fc03db",
+              "port": "68630099-b813-40cd-a0d7-a3f7e04ba4e4"
+            },
+            "vertices": [
+              {
+                "x": 449,
+                "y": 440
+              },
+              {
+                "x": 449,
+                "y": 470
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "48a1c383-b188-45dd-a3f2-3cc8081379ed",
+            "source": {
+              "x": 551,
+              "y": 380
+            },
+            "target": {
+              "cell": "18284665-2e35-4711-a3ab-33e499406b25",
+              "port": "68630099-b813-40cd-a0d7-a3f7e04ba4e4"
+            },
+            "vertices": [
+              {
+                "x": 600,
+                "y": 440
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 320.625,
+              "y": 510
+            },
+            "size": {
+              "width": 270,
+              "height": 144
+            },
+            "attrs": {
+              "text": {
+                "text": "Improper Neutralization of\nInput During Web Page\nGeneration ('Cross-site\nScripting')"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "68630099-b813-40cd-a0d7-a3f7e04ba4e4"
+                },
+                {
+                  "group": "right",
+                  "id": "a7fd2ef3-8516-4e3f-bf5e-63e20799b6e7"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c4d180b8-8197-4f6f-9d1b-de57bb46e19e"
+                },
+                {
+                  "group": "left",
+                  "id": "6942ab62-10b5-4184-9499-5b9890b68b7a"
+                }
+              ]
+            },
+            "id": "a638a724-757a-4e10-8177-c64116fc03db",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Improper Neutralization of\nInput During Web Page\nGeneration ('Cross-site\nScripting')",
+              "description": "The software does not neutralize or incorrectly neutralizes user-controllable\ninput before it is placed in output that is used as a web page that is served to\nother users.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            },
+            "zIndex": 11
+          },
+          {
+            "position": {
+              "x": 602.625,
+              "y": 510
+            },
+            "size": {
+              "width": 270,
+              "height": 144
+            },
+            "attrs": {
+              "text": {
+                "text": "Improper Neutralization of\nSpecial Elements used in an\nSQL Command ('SQL\nInjection')"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "68630099-b813-40cd-a0d7-a3f7e04ba4e4"
+                },
+                {
+                  "group": "right",
+                  "id": "a7fd2ef3-8516-4e3f-bf5e-63e20799b6e7"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c4d180b8-8197-4f6f-9d1b-de57bb46e19e"
+                },
+                {
+                  "group": "left",
+                  "id": "6942ab62-10b5-4184-9499-5b9890b68b7a"
+                }
+              ]
+            },
+            "id": "18284665-2e35-4711-a3ab-33e499406b25",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Improper Neutralization of\nSpecial Elements used in an\nSQL Command ('SQL\nInjection')",
+              "description": "The software constructs all or part of an SQL command using externally\ninfluenced input from an upstream component, but it does not neutralize or\nincorrectly neutralizes special elements that could modify the intended SQL\ncommand when it is sent to a downstream component.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            },
+            "zIndex": 12,
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
+          }
+        ],
         "description": ""
       }
     ],
